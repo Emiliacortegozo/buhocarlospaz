@@ -1,38 +1,89 @@
 .App {
   text-align: center;
-}
+  background-image: url("https://lomejordevillacarlospaz.com/wp-content/uploads/2022/07/Que-hacer-en-vacaciones-de-invierno-en-Villa-Carlos-Paz.png");
+  opacity: 0.6;
+  position: absolute;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  top: 0;
+  width: 100%;
+  margin-bottom:9rem ;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.boton{
+ 
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
+.header{
+  display:flex;
+justify-items: center;
+margin-bottom: 0rem;
+background-color: #999;
+}
+.redes{
+  margin-top: 1rem;
+  color: black;
+}
+redes2{
+  font-size: calc(20px + 2vmin);
+ 
+  justify-content: center;
+}
 .App-header {
-  background-color: #282c34;
+ 
+  background-color: rgba(43, 126, 87, 0.562);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(20px + 2vmin);
+  color: black;
 }
 
 .App-link {
   color: #61dafb;
 }
+.block{
+  height: 20rem;
+  width: 30rem;
+  border-radius: 1rem;
+ 
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+ margin-bottom: 3rem;
+ margin-right: 5rem;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
   }
 }
